@@ -13,28 +13,34 @@
 <body class="page">
   <header class="page-header">
     <div class="container">
-      <nav>
-        <a href="./index.html"><span class="logo-partone">Web</span><span class="logo-parttwo"> Studio</span></a>
+      <nav class="main-nav">
+        <a class="main-logo" href="./index.html">
+          <span class="logo-partone">Web</span>
+          <span class="logo-parttwo">Studio</span>
+        </a>
         <ul class="site-nav list">
-          <li><a href="./index.html" class="link">Студия</a></li>
-          <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
-          <li><a href="#" class="link">Контакты</a></li>
+          <li class="item"><a href="./index.html" class="link">Студия</a></li>
+          <li class="item">
+            <a href="./portfolio.html" class="link current">Портфолио</a>
+          </li>
+          <li class="item"><a href="#" class="link">Контакты</a></li>
+        </ul>
+
+        <ul class="auth-nav list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          </li>
         </ul>
       </nav>
-      <ul class="auth-nav list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-        </li>
-      </ul>
     </div>
   </header>
       <!-- Герой -->
       <section class="section">
         <div class="container"><h1 class="hero-title">Наши работы</h1>
-        <ul class="button-nav list">
+        <ul class="button-filters list">
           <li><a href="#" class="button-primery">Все</a></li>
           <li><a href="#" class="button-primery">Веб-сайты</a></li>
           <li><a href="#" class="button-primery">Приложени</a></li>
@@ -101,31 +107,44 @@
       </section>
     </main>
 <!-- Подвал -->
-<footer class="footer"><div class="container"><address>
-  <a href="./index.html"><span class="logo-partone-bottom">Web</span><span class="revtext-color"> Studio</span></a>
-  <br />
-  <p class="text">г.Киев, пр-т Леси Украинки, 26</p>
-</address>
-<address>
-  <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a><br />
-  <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-</address>
-<b class="media">Присоединяйтесь</b>
-<ul class="media list">
-  <li>
-    <a href="#" class="link" aria-label="Сылка на Instagram">Instagram</a>
-  </li>
-  <li>
-    <a href="#" class="link" aria-label="Сылка на Twitter">Twitter</a>
-  </li>
-  <li>
-    <a href="#" class="link" aria-label="Сылка на Facebook">Facebook</a>
-  </li>
-  <li>
-    <a href="#" class="link" aria-label="Сылка на LinkedIn">LinkedIn</a>
-  </li>
-</ul>
-<p class="copyr-color">2020 | Developed by GoIT Student</p></div>
+<footer class="footer">
+  <div class="container">
+    <div class="address-block">
+      <div>
+        <a class="footer-logo" href="./index.html">
+          <span class="logo-partone-bottom">Web</span>
+          <span class="revtext-color">Studio</span>
+        </a>
+        <address>
+          <p class="text">г.Киев, пр-т Леси Украинки, 26</p>
+        </address>
+        <address>
+          <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+          <br />
+          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+        </address>
+      </div>
+      <div>
+        <b class="media-connect">Присоединяйтесь</b>
+        <ul class="media-connect list">
+          <li>
+            <a href="#" class="link" aria-label="Сылка на Instagram">Instagram</a>
+          </li>
+          <li>
+            <a href="#" class="link" aria-label="Сылка на Twitter">Twitter</a>
+          </li>
+          <li>
+            <a href="#" class="link" aria-label="Сылка на Facebook">Facebook</a>
+          </li>
+          <li>
+            <a href="#" class="link" aria-label="Сылка на LinkedIn">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+      <div><b class="media-connect">Подпишитесь на рассылку</b></div>
+    </div>
+    <p class="copyr-color">2020 | Developed by GoIT Student</p>
+  </div>
 </footer>
 </body>
 
