@@ -7,6 +7,7 @@
   <title>Web Studio</title>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" />
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
@@ -37,76 +38,81 @@
       </nav>
     </div>
   </header>
-      <!-- Герой -->
-      <section class="section">
-        <div class="container"><h1 class="hero-title">Наши работы</h1>
-        <ul class="button-filters list">
+     
+  <!-- Герой -->
+    <main><section class="section-portfolio">
+      <div class="container">
+        <h1 class="hero-portfolio">Наши работы</h1>
+        <ul class="button-filters">
           <li><a href="#" class="button-primery">Все</a></li>
           <li><a href="#" class="button-primery">Веб-сайты</a></li>
-          <li><a href="#" class="button-primery">Приложени</a></li>
+          <li><a href="#" class="button-primery">Приложения</a></li>
           <li><a href="#" class="button-primery">Дизайн</a></li>
           <li><a href="#" class="button-primery">Маркетинг</a></li>
-        </ul></div>
-        <div class="container"><ul class="feature-list list">
-          <li>
+        </ul>
+      </div>
+      <div class="container">
+        <ul class="projects">
+          <li class="projects-box">
             <a href="">
-              <img src="./images/portfolio-one.jpg" alt="Пример сайта" />
-              <h2 class="portfolio-section-title">Технокряк</h2>
+              <img src="./images/pf-one.jpg" alt="Пример сайта" />
+              <h2 class="portfolio-title">Технокряк</h2>
               <p class="portfolio-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a href=""><img src="./images/portfolio-two.jpg" alt="Дизайн постера" />
-              <h2 class="portfolio-section-title">Постер New Orlean vs Golden Stars</h2>
+          <li class="projects-box">
+            <a href=""><img src="./images/pf-two.jpg" alt="Дизайн постера" />
+              <h2 class="portfolio-title">Постер New Orlean vs Golden Stars</h2>
               <p class="portfolio-text">Дизайн</p>
             </a>
           </li>
-          <li>
-            <a href=""></a><img src="./images/portfolio-three.jpg" alt="Логотип приложения" />
-            <h2 class="portfolio-section-title">Ресторан Seafood</h2>
+          <li class="projects-box">
+            <a href=""></a><img src="./images/pf-three.jpg" alt="Логотип приложения" />
+            <h2 class="portfolio-title">Ресторан Seafood</h2>
             <p class="portfolio-text">Приложение</p>
             </a>
           </li>
-          <li>
-            <a href=""><img src="./images/portfolio-four.jpg" alt="Наушники" />
-              <h2 class="portfolio-section-title">Проект Prime</h2>
+          <li class="projects-box">
+            <a href=""><img src="./images/pf-four.jpg" alt="Наушники" />
+              <h2 class="portfolio-title">Проект Prime</h2>
               <p class="portfolio-text">Маркетинг</p>
             </a>
           </li>
-          <li>
-            <a href=""><img src="./images/portfolio-five.jpg" alt="Коробки" />
-              <h2 class="portfolio-section-title">Проект Boxes</h2>
+          <li class="projects-box">
+            <a href=""><img src="./images/pf-five.jpg" alt="Коробки" />
+              <h2 class="portfolio-title">Проект Boxes</h2>
               <p class="portfolio-text">Приложение</p>
             </a>
           </li>
-          <li>
-            <a href=""><img src="./images/portfolio-six.jpg" alt="Монитор" />
-              <h2 class="portfolio-section-title">Inspiration has no Borders</h2>
+          <li class="projects-box">
+            <a href=""><img src="./images/pf-six.jpg" alt="Монитор" />
+              <h2 class="portfolio-title">Inspiration has no Borders</h2>
               <p class="portfolio-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a href=""><img src="./images/portfolio-seven.jpg" alt="Дизайн издания" />
-              <h2 class="portfolio-section-title">Издание Limited Edition</h2>
+          <li class="projects-box">
+            <a href=""><img src="./images/pf-seven.jpg" alt="Дизайн издания" />
+              <h2 class="portfolio-title">Издание Limited Edition</h2>
               <p class="portfolio-text">Дизайн</p>
             </a>
           </li>
-          <li>
-            <a href=""><img src="./images/portfolio-eight.jpg" alt="Бирка" />
-              <h2 class="portfolio-section-title">Проект LAB</h2>
+          <li class="projects-box">
+            <a href=""><img src="./images/pf-eight.jpg" alt="Бирка" />
+              <h2 class="portfolio-title">Проект LAB</h2>
               <p class="portfolio-text">Маркетинг</p>
             </a>
           </li>
-          <li>
-            <a href=""><img src="./images/portfolio-nine.jpg" alt="Лептоп" />
-              <h2 class="portfolio-section-title">Growing Business</h2>
+          <li class="projects-box">
+            <a href=""><img src="./images/pf-nine.jpg" alt="Лептоп" />
+              <h2 class="portfolio-title">Growing Business</h2>
               <p class="portfolio-text">Приложение</p>
             </a>
           </li>
-        </ul></div>
-      </section>
-    </main>
-<!-- Подвал -->
+        </ul>
+      </div>
+    </section></main>
+
+    <!-- Подвал -->
 <footer class="footer">
   <div class="container">
     <div class="address-block">
@@ -116,7 +122,7 @@
           <span class="revtext-color">Studio</span>
         </a>
         <address>
-          <p class="text">г.Киев, пр-т Леси Украинки, 26</p>
+          <p class="footer-text">г.Киев, пр-т Леси Украинки, 26</p>
         </address>
         <address>
           <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
@@ -125,8 +131,8 @@
         </address>
       </div>
       <div>
-        <b class="media-connect">Присоединяйтесь</b>
-        <ul class="media-connect list">
+        <b class="media-title">Присоединяйтесь</b>
+        <ul class="media-connect">
           <li>
             <a href="#" class="link" aria-label="Сылка на Instagram">Instagram</a>
           </li>
@@ -141,7 +147,7 @@
           </li>
         </ul>
       </div>
-      <div><b class="media-connect">Подпишитесь на рассылку</b></div>
+      <div><b class="media-title">Подпишитесь на рассылку</b></div>
     </div>
     <p class="copyr-color">2020 | Developed by GoIT Student</p>
   </div>
